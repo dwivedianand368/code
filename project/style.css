@@ -65,25 +65,25 @@
     line-height: 2;
     font-size: 20px ;
 }
-#second ul{
-    display: flex;
-    justify-content: space-evenly;
-    margin-left: 50px;
-    list-style: none;
+#second p{
+    font-size: 20px;
 }
-#third ul{
+
+
+#second ul{
     display: flex;
     justify-content: space-between;
     list-style: none;
     margin-left: 120px;
     margin-right: 120px;
+
 }
-#third ul li img:hover{
+#second ul li img:hover{
     transform: scale(1.2);
 }
 
 
-#fourth ul{
+#third ul{
     display: flex;
     justify-content: space-between;
     list-style: none;
