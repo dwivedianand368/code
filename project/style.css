@@ -20,7 +20,9 @@
     margin-right: 330px;
     gap:15px;
     color: white;
-
+}
+#one ul li a:hover{
+    opacity: 0.5;
 }
 #one p{
     color: white;
@@ -33,17 +35,18 @@
     background-color: white;
     justify-content: space-between;
     align-items: center;
-    position:fixed;
 }
 #navbar nav ul{
     display: flex;
     gap: 20px;
     list-style: none;
-
 }
 #navbar nav ul li a{
     text-decoration: none;
     color: black;
+}
+#navbar nav ul li a:hover{
+    color: blue;
 }
 #navbar p{
     font-size: 40px;
@@ -83,6 +86,8 @@ h2{
 }
 #second ul li img:hover{
     transform: scale(1.2);
+    transition: transform 0.8s;
+
 }
 
 
@@ -97,6 +102,8 @@ h2{
 }
 #third ul li img:hover{
     transform: scale(1.2);
+    transition: transform 0.8s;
+
 }
 #fourth ul{
     display: flex;
@@ -109,6 +116,8 @@ h2{
 }
 #fourth ul li img:hover{
     transform: scale(1.2);
+    transition: transform 0.8s;
+
 }
 #fifth ul{
     display: flex;
@@ -120,4 +129,5 @@ h2{
 }
 #fifth ul li img:hover{
     transform: scale(1.2);
+    transition: transform 0.8s;
 }
