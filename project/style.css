@@ -79,6 +79,8 @@
     margin-left: 120px;
     margin-right: 120px;
     padding-top: 50px;
+    transition: transform 0.8s;
+
 
 }
 h2{
@@ -86,7 +88,6 @@ h2{
 }
 #second ul li img:hover{
     transform: scale(1.2);
-    transition: transform 0.8s;
 
 }
 
@@ -98,11 +99,12 @@ h2{
     margin-left: 120px;
     margin-right: 120px;
     padding-top: 50px;
+    transition: transform 0.8s;
+
 
 }
 #third ul li img:hover{
     transform: scale(1.2);
-    transition: transform 0.8s;
 
 }
 #fourth ul{
@@ -112,11 +114,12 @@ h2{
     margin-left: 120px;
     margin-right: 120px;
     padding-top: 50px;
+    transition: transform 0.8s;
+
 
 }
 #fourth ul li img:hover{
     transform: scale(1.2);
-    transition: transform 0.8s;
 
 }
 #fifth ul{
@@ -126,8 +129,9 @@ h2{
     margin-left: 120px;
     margin-right: 120px;
     padding-top: 50px;
+    transition: transform 0.8s;
+
 }
 #fifth ul li img:hover{
     transform: scale(1.2);
-    transition: transform 0.8s;
 }
