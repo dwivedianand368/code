@@ -302,5 +302,102 @@ footer .small p{
     align-items: center;
    
 }
+@media(max-width: 768px) {
+
+    #navbar {
+      flex-direction: column;
+      height: auto;
+      padding: 20px 0;
+    }
+  
+    #navbar p {
+      font-size: 30px;
+      margin-left: 0;
+      text-align: center;
+    }
+  
+    #navbar nav ul {
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+  
+    #btn {
+      padding: 10px 15px;
+      font-size: 14px;
+      
+    }
+  
+    #first {
+      padding: 20px;
+      font-size: 16px;
+    }
+  
+    #second ul,
+    #third ul,
+    #fourth ul,
+    #fifth ul {
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+  
+    footer {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    footer ul {
+      width: 90%;
+      height: auto;
+      padding: 10px;
+    }
+  
+    footer p {
+      font-size: 30px;
+      margin: 20px;
+      text-align: center;
+    }
+  
+    .last {
+      font-size: 14px;
+      padding: 10px;
+      justify-content: center;
+    }
+  }
+  
+#checkbtn{
+    margin-right: 5px;
+    font-size: 30px;
+    display: none;
+}
+#check{
+    display: none;
+
+}
 
 
+
+@media(max-width: 768px){
+    #checkbtn{
+        display: block;
+        position: absolute;
+        top: 17%;
+        right: 3%;
+    }
+    #navbar nav ul {
+        width: 100%;
+        height: 100vh;
+        background-color: rgb(214, 221, 219);
+        /* display: none; */
+        position:absolute;
+        left: -1000px;   
+        transition: 2s;
+       
+    }
+
+}
+#check:checked ~ #navbar nav ul{
+    left: 0;
+    /* display: block; */
+}
