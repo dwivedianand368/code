@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            background-color: (#F2F2F2);
+
+        }
+        #navbar{
+            width: 100vw;
+            height: 10vh;
+            background-color: rgb(54, 52, 52);
+            display: flex;
+            justify-content: space-around;
+            color: white;
+        }
+        #navbar p{
+            font-size: 30px;
+            margin-top: 15px;
+            text-decoration: white underline;
+
+        }
+        #navbar p:hover{
+            text-decoration: none;
+        }
+        #nav ul{
+            display: flex;
+            list-style: none;
+            margin-top: 25px;
+        }
+        #nav ul li a{
+            color: white;
+            margin: 10px;
+          
+        }
+        #nav ul li a:hover{
+            color: red;
+            text-decoration: none;
+        }
+        #one{
+            font-size: 30px;
+            /* margin-top: 70px;
+            margin-left: 200px; */
+            position: absolute;
+            top: 100px;
+            left: 150px;
+        }
+        #one p{
+            margin: 35px;
+        }
+        #two{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            position: absolute;
+            top: 320px;
+            left: 183px;
+            font-weight: 100;
+
+        }
+        #three{
+           position: relative;
+           top: 350px;
+           left: 183px;
+        }
+        .form{
+            font-family:'Courier New', Courier, monospace;
+            font-size: 20px;
+            font-weight: 900px;
+            padding: 15px;
+        }
+        #password{
+            width: 80vw;
+            height: 45px;
+            border: 1px  solid rgb(241, 225, 225);
+            box-shadow: 1px 1px 5px rgb(241, 225, 225);
+        }
+        #username{
+            width: 80vw;
+            height: 45px;
+            border: 1px  solid rgb(241, 225, 225);
+            box-shadow: 1px 1px 5px rgb(241, 225, 225);
+        }
+        button{
+            padding: 20px 60px;
+            background-color: #6e4f9e;
+            color: white;
+            text-transform: uppercase;
+            cursor: pointer;
+        }
+        #upper-last{
+            position: relative;
+            top: 450px;
+            left: 183px;
+            font-size: 30px;
+            display: flex;
+        }
+        .last-two{
+            padding-left: 500px;
+        }
+        #last{
+            width: 100vw;
+            height: 40px;
+            background-color: rgb(54, 52, 52);
+            position: absolute;
+            top: 1000px;
+
+        }
+        #last p{
+            margin-left: 600px;
+            color: white;
+            display: flex;
+            align-items: center;
+            margin-top: 15px;
+            opacity: 0.5;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div id="navbar">
+            <p>colorlib</p>
+            <div id="nav">
+                <ul>
+                    <li><a href="">Buy License</a></li>
+                    <li><a href="">Hosting</a></li>
+                    <li><a href="">WordPress themes</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div id="one">
+            <p>Purchase History</p>
+            <p>Subscriptions</p>
+            <p>Account Information</p>
+        </div>
+        <div id="two">
+            <p>You need to log in to edit your profile.</p>
+            <p style="font-size: larger; font-weight: bolder;">Log into Your Account</p>
+
+        </div>
+        <div id="three">
+            <div class="form">
+                <label for="username">Username or Email</label><br>
+                <input type="text" id="username">
+            </div>            
+            <div class="form">
+                <label for="password">Password</label><br>
+                <input type="text" id="password">
+            </div>
+            <div class="form">
+                <label for="">Remember Me</label>
+            </div>
+            <button type="submit">Log In</button>
+        </div>
+    </section>
+    <footer id="upper-last">
+        <div class="last-one">
+            <p>Download History</p>
+        </div>
+        <div class="last-two">
+            <p>Login Status</p>
+            <p style="font-size: 17px; opacity: 0.5; padding-top: 10px;">You are currently logged in as:</p>
+            <li style="font-size: 13px; padding-top: 10px; text-transform: uppercase; list-style: none;"><a href="">Log out?</a></li>
+        </div>
+       
+    </footer>
+    <div id="last">
+        <p>Copyright © 2013-2021 Colorlib - All Rights Reserved. Theme by Colorlib Powered by WordPress</p>
+    </div>
+
+</body>
+</html>
