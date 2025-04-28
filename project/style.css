@@ -293,15 +293,7 @@ footer .small p{
     font-size: 20px;
 
 }
-.last{
-    width: 100vw;
-    height: 10vh;
-    background-color:#1b1a1a ;
-    color: white;
-     display: flex;
-    align-items: center; 
-   
-}
+
 @media(max-width: 768px) {
 
     #navbar {
@@ -359,12 +351,7 @@ footer .small p{
       text-align: center;
     }
   
-    .last {
-      font-size: 14px;
-      padding: 10px;
-      justify-content: center;
-    }
-  }
+  
   
 #checkbtn{
     margin-right: 5px;
@@ -377,7 +364,7 @@ footer .small p{
 }
 
 
-
+}
 @media(max-width: 768px){
     #checkbtn{
         display: block;
@@ -458,20 +445,45 @@ footer .small p{
     display: flex;
     margin-top: 40px;
 }
-#right{
-    width: 300px;
-    height: 600px;
-    background-color: wheat;
-}
-#social{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-#social div{
-    width: 30px;
-    height: 30px;
-    background-color: rgb(255, 255, 255);
-    display: flex;
 
+#right{
+    width: 400px;
+    height: 800px;
+    background-color: white;
+    position: absolute;
+    right: 5px;
+}
+#right input{
+    width: 250px;
+    height: 50px;
+    margin-bottom: 30px;
+    
+}
+#right h1{
+    color: black;
+}
+#right .socal{
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+    
+}
+#right .socal div{
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+#right h2{
+    margin-left: -50px;
+}
+#right div img{
+    padding-bottom: 15px;
+}
+#right ul li{
+    list-style-type: none;
+    padding: 20px;
+}
+#right ul li:hover{
+    text-decoration: underline;
 }
