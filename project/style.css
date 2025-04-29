@@ -350,8 +350,11 @@ footer .small p{
       margin: 20px;
       text-align: center;
     }
+    #checkbtn{
+        display: block;
+    }
   
-  
+}
   
 #checkbtn{
     margin-right: 5px;
@@ -363,8 +366,6 @@ footer .small p{
 
 }
 
-
-}
 @media(max-width: 768px){
     #checkbtn{
         display: block;
