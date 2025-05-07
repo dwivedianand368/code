@@ -30,19 +30,19 @@
 // Number()
 
 
-// var ans = confirm("Do you like my website")
+var ans = confirm("Do you like my website")
 
-// if(ans){
-//     alert("Thanks")
-// }
-// else{
-//     alert("Sorry")
-// }
+if(ans){
+    alert("Thanks")
+}
+else{
+    alert("Sorry")
+}
 
 
-var age = Number(prompt("Enter your age"));
-var age =  (age >= 18)? "you can vote ": "you can't vote";
-alert(age);
+// var age = Number(prompt("Enter your age"));
+// var age =  (age >= 18)? "you can vote ": "you can't vote";
+// alert(age);
 
 
 
