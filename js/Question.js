@@ -24,8 +24,19 @@ if both Ok then give a "Completed" message by Alert otherwise
 have a discount coupon.
 Apply a 10% discount if they confirm.*/
 
-var ans = Number(prompt("price"))
+// Prompt the user for the price and coupon status
+// var price = parseFloat(prompt("Enter the price of the item:"));
+// var hasCoupon = confirm("Do you have a discount coupon? Click 'OK' for Yes, 'Cancel' for No.");
 
+// var finalPrice;
+
+// if (hasCoupon) {
+//   finalPrice = price * 0.9; // Apply 10% discount
+// } else {
+//   finalPrice = price;
+// }
+
+// alert("The final price is: " + finalPrice);
 
 
 /*Task 4: Ask the user for their exam score and determine
@@ -45,7 +56,7 @@ if they passed or failed.(Above 33 Pass)*/
 //     alert("odd")
 // }
 
-// problem hai code me
+
 /*Task 6:Ask for conformation "Are you sure to delete" if ok give message
 "Item Deleted" otherwise "Cancelled".*/
 // var ans = confirm(prompt("Are you want to delete"))

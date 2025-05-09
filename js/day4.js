@@ -16,10 +16,11 @@
  //var            let             const
 
  //let we can not Recleared  
- function one(){
-    var a = 5;
-    var b = 6;
-    var c = a+b;
-    console.log(c);
- }  
- one()
+//  function one(){
+//     var a = 5;
+//     var b = 6;
+//     var c = a+b;
+//     console.log(c);
+//  }  
+//  one()
+
