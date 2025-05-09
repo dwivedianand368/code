@@ -24,3 +24,21 @@
 //  }  
 //  one()
 
+
+function ook(){
+
+
+    // const a = 7;
+    // {
+    //     const a = 8;
+    //     console.log(a);
+    // }
+     console.log(a);
+     let a = 5;
+}
+ook()
+
+
+
+
+
