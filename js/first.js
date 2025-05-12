@@ -40,7 +40,7 @@
 // function lcm(){
 //     var a = 14;
 //     var b = 21;
-//     var max = a > b ? a : b;;
+//     var max = a > b ? a : b;
     
 //     while(1){
 //         if(max % a == 0 && max % b == 0){

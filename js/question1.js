@@ -29,13 +29,11 @@
 // }
 // substring();
 
-//---------------------------------problem on this code----------------------------
-// function replace(){
-//     let a = "Place";
-//     let b = "Replace";
-//     console.log(a.replace(b));
-// }
-// replace();
+function replace(){
+    let a = "Place And Replace";
+    console.log(a.replace("And","Or"));
+}
+replace();
 
 
 
