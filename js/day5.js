@@ -22,8 +22,8 @@
 // }
 // length();
 
-function slice(){
-    let text = "This isthe String ";
-    console.log(text.slice(7,10))
-}
-slice()
+// function slice(){
+//     let text = "This isthe String ";
+//     console.log(text.slice(7,10))
+// }
+// slice()

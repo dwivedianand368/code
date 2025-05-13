@@ -29,11 +29,11 @@
 // }
 // substring();
 
-function replace(){
-    let a = "Place And Replace";
-    console.log(a.replace("And","Or"));
-}
-replace();
+// function replace(){
+//     let a = "Place And Replace";
+//     console.log(a.replace("And","Or"));
+// }
+// replace();
 
 
 
