@@ -13,6 +13,6 @@
 // alert(`I am ${name} i am ${age} year old`)
 
 
-let a = 25;
-let b = 10;
-alert(`Sum of a = ${a} and b = ${b}  is ${(a+b)} ` )
+// let a = 25;
+// let b = 10;
+// alert(`Sum of a = ${a} and b = ${b}  is ${(a+b)} ` )
