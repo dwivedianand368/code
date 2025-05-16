@@ -27,7 +27,15 @@
 
 
 
-let num = 758714
-console.log(Number(num.toString().split('').reverse().join('')))
+// let num = 758714
+// console.log(Number(num.toString().split('').reverse().join('')))
 
 
+
+
+// Destructuring 
+
+// let arr= ["Apple" ,"Mango" ,"Banana" ,"Grapes"]
+
+// const [a,b,c,d]= arr ///Destructuring
+// console.log(c)

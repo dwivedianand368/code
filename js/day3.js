@@ -30,14 +30,14 @@
 // Number()
 
 
-var ans = confirm("Do you like my website")
+// var ans = confirm("Do you like my website")
 
-if(ans){
-    alert("Thanks")
-}
-else{
-    alert("Sorry")
-}
+// if(ans){
+//     alert("Thanks")
+// }
+// else{
+//     alert("Sorry")
+// }
 
 
 // var age = Number(prompt("Enter your age"));
