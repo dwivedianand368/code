@@ -39,10 +39,10 @@
 
 // console.log(ter)
 
-let num =(a)=>{
-    let ter = (a>0)?"+":"-";
-    return ter
-}
-let result= num(a)
-console.log(result)
+// let num =(a)=>{
+//     let ter = (a>0)?"+":"-";
+//     return ter
+// }
+// let result= num(a)
+// console.log(result)
 

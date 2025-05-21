@@ -28,6 +28,8 @@
 
 
 // 4  ========================================Arrow Function=======================================================
+
+// code single line ka hai to direct likhe sakte hai
 // let sid= ()=>{
 //     console.log("Arrow Function")
 // }
@@ -48,7 +50,7 @@
 
 
 // ==========================================Object-==================================================================
-//  ====key name is always unique
+//  ====                                          key name is always unique
 // let detail = {
 
 //     name: "Anand",
