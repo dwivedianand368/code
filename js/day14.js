@@ -14,6 +14,6 @@ let answer=()=>{
     let num2 = document.querySelector("#inptext2").value
 
     let one=document.querySelector("#one")
-    one.innerHTML=Number(inp1)+ Number(inp2)
+    one.innerHTML=Number(num1)+ Number(num2)
 
 }
