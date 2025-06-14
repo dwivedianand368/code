@@ -19,7 +19,7 @@ let formValidate=()=>{
         errname.innerHTML="Please fill this form"
         errname.style.color="red"
         return false
-    }
+    }    
     else if(inpnum=="")
     {
         errnum.innerHTML="please enter number"
